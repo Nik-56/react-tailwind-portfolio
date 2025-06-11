@@ -59,10 +59,13 @@ export const SkillsSection = () => {
                                 <h3 className="font-semibold text-lg">{skill.name}</h3>
                             </div>
                             <div className="w-full h-2 rounded-full bg-gray-700 relative overflow-hidden">
+
+                            <div className="w-full h-2 rounded-full bg-gray-300 relative overflow-hidden">
                             <div
                                 className="absolute top-0 left-0 h-full bg-primary rounded-full animate-[grow_1.5s_ease-out]"
                                 style={{ width: skill.level + "%" }}
                             />
+                            </div>
                             </div>
 
 
