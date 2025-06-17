@@ -3,12 +3,12 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "d",
-        description: "ffc",
-        image: "/projects/im1.jpg",
-        tags: ["Techstack"],
-        demoURL: "fcfc",
-        githubURL: "cfc",
+        title: "Games",
+        description: "A playful mini arcade with Tic Tac Toe & Rock Paper Scissors, featuring multiplayer mode, winner highlights, and smooth UI",
+        image: "/projects/games.jpg",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoURL: "https://games-five-rosy.vercel.app/",
+        githubURL: "https://github.com/Nik-56/games",
     }, 
     {
         id: 2,
