@@ -7,26 +7,26 @@ const projects = [
         description: "A playful mini arcade with Tic Tac Toe & Rock Paper Scissors, featuring multiplayer mode, winner highlights, and smooth UI",
         image: "/projects/games.jpg",
         tags: ["HTML", "CSS", "JavaScript"],
-        demoURL: "https://games-five-rosy.vercel.app/",
-        githubURL: "https://github.com/Nik-56/games",
+        demoUrl: "https://games-five-rosy.vercel.app/",
+        githubUrl: "https://github.com/Nik-56/games",
     }, 
     {
-        id: 2,
-        title: "fcfc",
-        description: "fcfc",
-        image: "/projects/im1.jpg",
-        tags: ["Techstack"],
-        demoURL: "fcfc",
-        githubURL: "fcfc",
+        id: 1,
+        title: "Games",
+        description: "A playful mini arcade with Tic Tac Toe & Rock Paper Scissors, featuring multiplayer mode, winner highlights, and smooth UI",
+        image: "/projects/games.jpg",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://games-five-rosy.vercel.app/",
+        githubUrl: "https://github.com/Nik-56/games",
     },
     {
-        id: 3,
-        title: "fcfc",
-        description: "fcfc",
-        image: "/projects/im1.jpg",
-        tags: ["Techstack"],
-        demoURL: "fcfc",
-        githubURL: "fcfc",
+        id: 1,
+        title: "Games",
+        description: "A playful mini arcade with Tic Tac Toe & Rock Paper Scissors, featuring multiplayer mode, winner highlights, and smooth UI",
+        image: "/projects/games.jpg",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://games-five-rosy.vercel.app/",
+        githubUrl: "https://github.com/Nik-56/games",
     },
 ];
 
@@ -45,9 +45,9 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project) => (
             <div
-              key={key}
+              key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -76,6 +76,7 @@ export const ProjectsSection = () => {
                     <a
                       href={project.demoUrl}
                       target="_blank"
+                      rel="noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
@@ -83,6 +84,7 @@ export const ProjectsSection = () => {
                     <a
                       href={project.githubUrl}
                       target="_blank"
+                      rel="noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
