@@ -20,13 +20,13 @@ const projects = [
         githubUrl: "https://github.com/Nik-56/MCQGEN",
     },
     {
-        id: 1,
-        title: "Games",
-        description: "A playful mini arcade with Tic Tac Toe & Rock Paper Scissors, featuring multiplayer mode, winner highlights, and smooth UI",
-        image: "/projects/games.jpg",
-        tags: ["HTML", "CSS", "JavaScript"],
-        demoUrl: "https://games-five-rosy.vercel.app/",
-        githubUrl: "https://github.com/Nik-56/games",
+        id: 3,
+        title: "Movies Recommender System",
+        description: " A Streamlit app that recommends similar movies using a content-based machine learning model, deployed on Hugging Face.",
+        image: "/projects/movie_recommender.jpg",
+        tags: ["ML", "NLP", "Hugging face", "Streamlit", "Data pre-processing"],
+        demoUrl: "https://huggingface.co/spaces/Nik562003/movie-recommender",
+        githubUrl: "https://huggingface.co/spaces/Nik562003/movie-recommender/tree/main",
     },
 ];
 
